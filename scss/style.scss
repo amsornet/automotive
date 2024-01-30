@@ -1,0 +1,167 @@
+:root {
+  --color-red-dark: {
+    color: #C62314;
+  }
+
+  --color-red: {
+    color: #DD2211;
+  }
+
+  --color-blue-dark: {
+    color: #130E27;
+  }
+
+  --color-black-light: {
+    color: #161616;
+  }
+}
+
+@font-face {
+  font-family: 'Fira Code', monospace;
+  src:url();
+  
+}
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;;
+  src: url();
+}
+
+@font-face {
+  font-family: 'PT Serif', serif;
+  src:url();
+}
+
+  
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  max-width: 144rem;
+  width: 100%;
+  height: 100%;
+  border: 1px solid green;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  
+}
+
+// header nav
+
+.container {
+  max-width: 106rem;
+  width: 100%;
+  
+  border: 1px solid black;
+  margin-left: 19rem;
+  margin-right: 19rem;
+
+}
+.header {
+  background: linear-gradient(0deg, rgba(221, 34, 17, 0.87) 0%, rgba(221, 34, 17, 0.87) 100%), url(../img/01_1.jpeg), lightgray 0.398px 0.103px / 100% 123% no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 68rem;
+ 
+
+  
+  
+}
+.header__wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.header__img {
+  margin: 0;
+  padding: 0;
+  
+  display: block;
+  background: url(../img/Logo.svg) center / contain no-repeat;
+  width: 100%;
+  height: 9rem;
+  color: hsba(0, 0%, 100%, 1);
+  
+  
+
+}
+.header__nav {
+  
+  
+}
+.header__nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.5rem
+  
+}
+.header__nav-ul-li {
+  list-style-type: none;
+  
+}
+.header__nav-ul-li-a {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: background-color .3s;
+}
+
+.header__nav-ul-li-a:hover {
+  
+  width: 9.2rem;
+  height: 3.4rem;
+  text-align: center;
+  scale: 1.2;
+  background-color: #130E27;
+}  
+
+
+.header__h1 {
+  text-transform: uppercase;
+  max-width: 53rem;
+  color: #130E27;
+  font-family: Montserrat;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82px; /* 91.111% */
+  letter-spacing: -1.8px;
+  
+}
+
+.header__h1 span {
+  color: #FFF;
+ 
+}
+.header__p {
+  max-width: 50rem;
+  
+  color: #FFF;
+  font-family: "PT Serif";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  letter-spacing: -0.4px;
+  
+}
