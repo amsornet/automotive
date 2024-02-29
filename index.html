@@ -3,51 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Montserrat:wght@500;700&family=PT+Serif&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    
+    <link rel="stylesheet" href="./styles/styles.css" />
 
     <title>Automotive</title>
   </head>
   <body>
-    <div class="container">
+  
       <header class="header">
-        <div class="header__wrap">
-          <div class="header__img"></div>
-          <nav class="header__nav">
-            <ul class="header__nav-ul">
-              <li class="header__nav-ul-li">
-                <a class="header__nav-ul-li-a" href="#">home</a>
+        <div class="header__inner container">
+          <a href="#" class="header__logo logo">
+            <img class="logo__image" src="./img/Logo.svg" alt="Automotive" width="293" height="90" loading="lazy">
+          </a>
+          <nav class="header__menu ">
+<!--            hidden-mobile-->
+            <ul class="header__menu-list">
+              <li class="header__menu-item">
+                <a class="header__menu-link" href="/">home</a>
               </li>
-              <li class="header__nav-ul-li">
-                <a class="header__nav-ul-li-a" href="#">about</a>
+              <li class="header__menu-list">
+                <a class=" header__menu-item " href="/">about</a>
               </li>
-              <li class="header__nav-ul-li">
-                <a class="header__nav-ul-li-a" href="#">services</a>
+              <li class="header__menu-list">
+                <a class=" header__menu-item " href="/">services</a>
               </li>
-              <li class="header__nav-ul-li">
-                <a class="header__nav-ul-li-a" href="#">gallery</a>
+              <li class="header__menu-list">
+                <a class="header__menu-item " href="/">gallery</a>
               </li>
-              <li class="header__nav-ul-li">
-                <a class="header__nav-ul-li-a" href="#">contact</a>
+              <li class="header__menu-list">
+                <a class="header__menu-item " href="/">contact</a>
               </li>
             </ul>
           </nav>
+          <button class="button__burger-menu burger-button visible-mobile" type="button"
+                  onclick="mobileOverlay.showModal()">
+            <span class="visually-hidden">Open navigation menu</span>
+          </button>
         </div>
-
-        <h1 class="header__h1">sell your <span>car now</span></h1>
-        <p class="header__p">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
+        
+        <h1 class="header__title">sell your <span>car now</span></h1>
+        <div class="header__description"><p>Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s
-        </p>
+          since the 1500s</p>
+        </div>
       </header>
+      
       <main>
       <section class="services">
         <h2 class="services__h2">our <span>services</span></h2>
