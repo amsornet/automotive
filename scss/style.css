@@ -475,7 +475,7 @@ a {
 }
 
 .header {
-  background: linear-gradient(0deg, rgba(221, 34, 17, 0.87) 0%, rgba(221, 34, 17, 0.87) 100%), url(../img/01_1.jpeg), lightgray 0.398px 0.103px/100% 123% no-repeat;
+  background: linear-gradient(0deg, rgba(221, 34, 17, 0.87) 0%, rgba(221, 34, 17, 0.87) 100%), url(../images/01_1.jpeg), lightgray 0.398px 0.103px/100% 123% no-repeat;
   background-size: cover;
   background-position: center;
   height: 68rem;
@@ -492,7 +492,7 @@ a {
   margin: 0;
   padding: 0;
   display: block;
-  background: url(../img/Logo.svg) center/contain no-repeat;
+  background: url(../images/Logo.svg) center/contain no-repeat;
   width: 100%;
   height: 9rem;
   color: hsba(0, 0%, 100%, 1);
@@ -579,22 +579,22 @@ a {
 }
 
 .services__img_02 {
-  background: url(../img/02.svg) center/contain no-repeat;
+  background: url(../images/02.svg) center/contain no-repeat;
   height: 15rem;
 }
 
 .services__img_03 {
-  background: url(../img/03.svg) center/contain no-repeat;
+  background: url(../images/03.svg) center/contain no-repeat;
   height: 15rem;
 }
 
 .services__img_04 {
-  background: url(../img/04.svg) center/contain no-repeat;
+  background: url(../images/04.svg) center/contain no-repeat;
   height: 15rem;
 }
 
 .services__img_05 {
-  background: url(../img/05.svg) center/contain no-repeat;
+  background: url(../images/05.svg) center/contain no-repeat;
   height: 15rem;
 }
 
