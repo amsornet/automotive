@@ -5,13 +5,12 @@
   background-size: cover;
   background-position: center;
   height: 68rem;
-  width: 100%;
+  max-width: 100%;
 
 
   &__inner {
     display: flex;
     justify-content: space-between;
-    column-gap: 2rem;
   }
 
   &__logo-image{
@@ -21,22 +20,21 @@
   &__menu-list {
     display: flex;
     justify-content: space-between;
-
     align-items: center;
-    column-gap: 3.5rem;
+    column-gap: 2rem;
   }
 
   &__menu-item {
-    list-style-type: none;
-
+    width: 9.2rem;
+    height: 3.4rem;
+    text-align: center;
+    line-height: 3.4rem;
   }
 
-
   &__menu-link {
-    align-items: center;
-    justify-content: center;
+    position: relative;
     color: #FFF;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -46,47 +44,35 @@
   }
 
   &__menu-item:hover {
-    width: 9.2rem;
-    height: 3.4rem;
     background-color: #130E27;
+  }
+
+  &__title-main {
+    text-transform: uppercase;
+    max-width: 53rem;
+    color: #130E27;
+    font-family: Montserrat, sans-serif;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px; /* 91.111% */
+    letter-spacing: -1.8px;
+    margin-bottom: 5rem;
+  }
+
+  &__title-main span {
+    color: #FFF;
+  }
+
+  &__description {
+    max-width: 49.4rem;
+    color: #FFF;
+    font-family: "PT Serif", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    text-wrap: wrap;
   }
 }
 
-
-
-
-
-
-
-
-
-
-.header__h1 {
-  text-transform: uppercase;
-  max-width: 53rem;
-  color: #130E27;
-  font-family: Montserrat;
-  font-size: 90px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 82px; /* 91.111% */
-  letter-spacing: -1.8px;
-  margin-bottom: 5rem;
-
-}
-
-.header__h1 span {
-  color: #FFF;
-
-}
-.header__p {
-  max-width: 50rem;
-
-  color: #FFF;
-  font-family: "PT Serif";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px; /* 140% */
-  letter-spacing: -0.4px;
-}
