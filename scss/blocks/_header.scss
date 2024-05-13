@@ -1,9 +1,10 @@
 
 // header nav
 .header {
-  background: linear-gradient(0deg, rgba(221, 34, 17, 0.87) 0%, rgba(221, 34, 17, 0.87) 100%), url(../images/01.png), lightgray 0.398px 0.103px / 100% 123% no-repeat;
+  background: linear-gradient(0deg, rgba(221, 34, 17, 0.87) 0%, rgba(221, 34, 17, 0.87) 100%), url(../../images/01.png), lightgray 0.398px 0.103px / 100% 123%;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 68rem;
   max-width: 100%;
 
@@ -12,11 +13,6 @@
     display: flex;
     justify-content: space-between;
   }
-
-  &__logo-image{
-    color: hsba(0, 0%, 100%, 1);
-  }
-
   &__menu-list {
     display: flex;
     justify-content: space-between;
@@ -40,7 +36,7 @@
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
-    transition: background-color .3s;
+    transition: background-color var(--transition-duration);
   }
 
   &__menu-item:hover {
