@@ -1,0 +1,37 @@
+.story {
+  padding-inline: var(--container-padding-x);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2rem;
+
+  background: #130E27;
+  color: white;
+
+  &__description {
+    width: 100%;
+
+    font-family: "PT Serif", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.4px;
+  }
+
+  &__button {
+    padding: 2rem 7rem;
+    margin-block: 3rem;
+
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+
+    background: #C62314;
+  }
+}
+
