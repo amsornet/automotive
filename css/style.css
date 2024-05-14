@@ -450,7 +450,7 @@ h4 {
 }
 
 .header {
-  background: linear-gradient(0deg, rgba(221, 34, 17, 0.87) 0%, rgba(221, 34, 17, 0.87) 100%), url(../../images/01.png), lightgray 0.398px 0.103px/100% 123%;
+  background: linear-gradient(0deg, rgba(221, 34, 17, 0.87) 0%, rgba(221, 34, 17, 0.87) 100%), url(../../images/header-bg.png), lightgray 0.398px 0.103px/100% 123%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -653,6 +653,27 @@ h4 {
 }
 .price__button:hover {
   background: #C62314;
+}
+
+.footer {
+  margin-top: 7rem;
+  height: 19rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #130E27;
+}
+.footer__description {
+  color: #FFF;
+  font-family: "PT Serif", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+  letter-spacing: -0.4px;
+}
+.footer__description span {
+  color: #C62314;
 }
 
 /*# sourceMappingURL=style.css.map */

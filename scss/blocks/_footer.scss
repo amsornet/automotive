@@ -1,25 +1,29 @@
 //section footer
-
-
 .footer {
-  background: #130E27;
+  margin-top: 7rem;
+  height: 19rem;
+
   display: flex;
   justify-content: space-between;
-  margin-top: 7rem;
+  align-items: center;
+
+  background: #130E27;
+
+  &__description {
+    color: #FFF;
+    font-family: "PT Serif", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.4px;
+
+    & span {
+      color: #C62314;
+    }
+  }
 
 }
 
 
-.footer p
-{
-  color: #FFF;
-  font-family: "PT Serif";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px; /* 140% */
-  letter-spacing: -0.4px;
-}
-.footer p span {
-  color: #C62314;
-}
+
