@@ -1,19 +1,16 @@
 //section price
 .price {
+  background: #EFEFEF;
+  padding-bottom: 7rem;
 
   &__title-main {
-    margin-block: 5rem;
+    padding-block: 5rem;
     width: 100%;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
-
-    //position: relative;
-    //top: 50%;
-    //left: 50%;
-    //transform: translate(-50%, -50%);
 
 
 

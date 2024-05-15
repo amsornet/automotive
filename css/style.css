@@ -582,8 +582,12 @@ h4 {
   background: #C62314;
 }
 
+.price {
+  background: #EFEFEF;
+  padding-bottom: 7rem;
+}
 .price__title-main {
-  margin-block: 5rem;
+  padding-block: 5rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -809,7 +813,6 @@ h4 {
 
 */
 .footer {
-  margin-top: 7rem;
   height: 19rem;
   display: flex;
   justify-content: space-between;
