@@ -2,8 +2,11 @@
 .price {
 
   &__title-main {
-    margin: 5rem 42.2rem;
-    display: block;
+    margin-block: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     font-family: Montserrat, sans-serif;
     font-size: 50px;
@@ -12,6 +15,7 @@
     line-height: normal;
     letter-spacing: -1px;
     text-transform: uppercase;
+
 
     color: #130E27;
 
