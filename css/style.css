@@ -613,6 +613,7 @@ h4 {
   align-items: center;
   column-gap: 1rem;
   border: 2px solid green;
+  background: #fff;
 }
 .price__title {
   padding-block: 3.5rem;
