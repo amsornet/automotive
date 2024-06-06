@@ -642,11 +642,13 @@ h4 {
 }
 .price__cards {
   display: grid;
-  grid-template-columns: repeat(3, 34rem);
-  grid-auto-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
 }
 .price__card {
+  max-width: 34rem;
+  width: 100%;
+  min-height: 46rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -854,7 +856,15 @@ h4 {
 */
 @media (max-width: 1280px) {
   .price__cards {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    row-gap: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .price__cards {
     grid-template-columns: 1fr;
+    justify-items: center;
     row-gap: 2rem;
   }
 }

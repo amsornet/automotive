@@ -29,12 +29,15 @@
 
   &__cards {
     display: grid;
-    grid-template-columns: repeat(3, 34rem);
-    grid-auto-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    
     column-gap: 2rem;
   }
 
   &__card {
+    max-width: 34rem;
+    width: 100%;
+    min-height: 46rem;
     display: flex;
     flex-direction: column;
 
@@ -270,7 +273,18 @@
 @include desktop {
   .price__cards {
     
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    row-gap: 2rem;
+  }
+}
+
+@include mobile-above {
+  .price__cards {
+    
     grid-template-columns: 1fr;
+    justify-items: center;
+    
     row-gap: 2rem;
   }
 }
