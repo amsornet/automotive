@@ -50,7 +50,7 @@
 
 // media queries
 
-@include mobile-above {
+@include mobile {
   .services__cards {
     flex-wrap: wrap;
 

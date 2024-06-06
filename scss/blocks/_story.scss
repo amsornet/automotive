@@ -37,7 +37,7 @@
 
 // media queries 
 
-@include tablet-above {
+@include tablet {
   .story {
     flex-direction: column;
   }

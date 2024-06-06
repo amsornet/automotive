@@ -100,3 +100,54 @@
   }
 }
 
+
+
+@include mobile-L-above {
+  
+
+  .header {
+    --container-padding-x: 1rem;
+  }
+
+  .header__title-main {
+    font-size: 3rem;
+  }
+
+  .services {
+    --container-padding-x: 1rem;
+  }
+
+  .services__title {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .services__cards {
+    flex-direction: column;
+  }
+
+  .story {
+    --container-padding-x: 1rem;
+    
+    padding-top: 2rem;
+    
+  }
+
+  .price {
+    --container-padding-x: 1rem;
+
+  }
+
+  .footer {
+    --container-padding-x: 1rem;
+    padding-top: 1rem;
+  
+
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+}
+
+
