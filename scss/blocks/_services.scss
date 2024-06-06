@@ -48,6 +48,15 @@
 
 }
 
+// media queries
+
+@include mobile-above {
+  .services__cards {
+    flex-wrap: wrap;
+
+  }
+}
+
 
 
 

@@ -35,3 +35,11 @@
   }
 }
 
+// media queries 
+
+@include tablet-above {
+  .story {
+    flex-direction: column;
+  }
+}
+

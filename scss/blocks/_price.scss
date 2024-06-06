@@ -266,3 +266,11 @@
 
 
 */
+
+@include desktop {
+  .price__cards {
+    
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+}
