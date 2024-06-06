@@ -7,12 +7,14 @@
   background-repeat: no-repeat;
   height: 68rem;
   max-width: 100%;
+  
 
 
   &__inner {
     display: flex;
     justify-content: space-between;
     column-gap: 2rem;
+    padding-top: 50px;
   }
   &__menu-list {
     display: flex;
@@ -22,16 +24,30 @@
   }
 
   &__menu-item {
-    width: 100%;
+    position: relative;
+    
     height: 3.4rem;
     text-align: center;
     line-height: 3.4rem;
+    color: #FFF;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(-50% -50%);
+      
+      border: none;
+      opacity: 0;
+
+    }
 
   }
 
   &__menu-link {
-    position: relative;
-    color: #FFF;
+    
+    
     font-family: Montserrat, sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -41,8 +57,10 @@
     transition: background-color var(--transition-duration);
   }
 
-  &__menu-item:hover {
+  &__menu-item:hover::after {
     background-color: #130E27;
+    color: currentColor;
+    opacity: 1;
   }
 
   &__title-main {
